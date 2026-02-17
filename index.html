@@ -549,19 +549,52 @@
 
         <div class="grid2">
           <article class="card reveal">
-            <div class="topline">
-              <h3 style="margin:0; letter-spacing:-0.02em;">Exploit-DB (GHDB) Contribution</h3>
-              <span class="tag">OSINT</span>
-            </div>
-            <p class="muted" style="margin:10px 0 0; line-height:1.7;">
-              Published Google dorks in the Google Hacking Database (GHDB) to help identify potentially exposed interfaces.
-            </p>
-            <ul class="list">
-              <li>Focus: exposure awareness & defensive auditing</li>
-              <li>Use: authorised security assessments only</li>
-              <li>Value: attack surface visibility</li>
-            </ul>
-          </article>
+  <div class="topline">
+    <h3 style="margin:0; letter-spacing:-0.02em;">Exploit-DB (GHDB) Contributions</h3>
+    <span class="tag">OSINT • Exposure Discovery</span>
+  </div>
+
+  <div class="citationShot" style="margin-top:12px;">
+
+    <!-- GHDB 7787 -->
+    <div class="title">
+      Google Dork Published – Exploit DB
+      <span class="muted">(GHDB-ID: 7787)</span>
+    </div>
+
+    <div class="meta">
+      <b>Dork:</b>
+      <code>site:mail.* intitle:Dashboard</code><br>
+      <b>Category:</b> Sensitive Online Shopping Info
+    </div>
+
+    <div class="meta" style="margin-top:8px;">
+      Identifies potentially exposed email subdomains with dashboard interfaces,
+      which may reveal sensitive transactional or administrative information.
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- GHDB 7788 -->
+    <div class="title">
+      Google Dork Published – Exploit DB
+      <span class="muted">(GHDB-ID: 7788)</span>
+    </div>
+
+    <div class="meta">
+      <b>Dork:</b>
+      <code>inurl:EMSWebClient/</code><br>
+      <b>Category:</b> Pages Containing Login Portals
+    </div>
+
+    <div class="meta" style="margin-top:8px;">
+      Locates web login portals for EMS Web Clients that may be improperly secured
+      or indexed.
+    </div>
+
+  </div>
+</article>
+
 
           <article class="card reveal">
             <div class="topline">
