@@ -2,76 +2,84 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>AWS Two-Tier PKI | Soriful Islam Shoaib</title>
+  <meta name="description" content="Two-tier PKI implementation on AWS with Windows Server 2019: Root CA + Issuing CA, TLS-enabled web server, Wireshark validation. UK cloud security portfolio." />
   <link rel="stylesheet" href="../assets/style.css" />
 </head>
+
 <body>
   <header class="topbar">
     <div class="container topbar__inner">
-      <div class="brand"><span class="brand__dot"></span><span class="brand__text">Soriful Islam Shoaib</span></div>
-      <div class="actions"><a class="btn btn--ghost" href="../index.html#projects">← Back</a></div>
+      <a class="brand" href="../index.html#projects">
+        <span class="dot"></span><span>Back</span>
+      </a>
+      <div class="actions">
+        <a class="btn btn--ghost" href="../index.html#skills">Skills</a>
+        <a class="btn btn--primary" href="../index.html#contact">Contact</a>
+      </div>
     </div>
   </header>
 
   <main class="section">
     <div class="container">
-      <h1 class="hero__title">Two-Tier PKI on AWS + Windows Server</h1>
-      <p class="badge">PKI • TLS • Cloud Security • Wireshark Validation</p>
+      <h1 class="hero__title">Two-Tier PKI Design & Implementation</h1>
+      <p class="pill">AWS • Windows Server 2019 • Root CA + Issuing CA • TLS • Wireshark</p>
 
-      <div class="grid2">
+      <div class="card">
+        <h3>Objective</h3>
+        <p class="lead">
+          Build a secure two-tier Public Key Infrastructure (PKI) to enable certificate issuance and enforce TLS encryption,
+          demonstrating enterprise trust architecture and cloud security fundamentals.
+        </p>
+      </div>
+
+      <div class="grid3" style="margin-top:14px">
         <div class="card">
-          <h3>Objective (UK relevance)</h3>
-          <p class="muted">
-            Implement secure certificate issuance and TLS encryption using a two-tier PKI design.
-            Demonstrates cloud security fundamentals and enterprise-grade trust architecture.
-          </p>
+          <h3>Architecture</h3>
+          <ul class="list">
+            <li><b>Root CA</b> (offline / highly protected concept)</li>
+            <li><b>Issuing CA</b> for day-to-day certificate issuance</li>
+            <li>TLS-enabled web server using issued certificates</li>
+            <li>Cloud deployment using AWS compute instances</li>
+          </ul>
         </div>
 
         <div class="card">
-          <h3>What I built</h3>
+          <h3>Implementation (high level)</h3>
           <ul class="list">
-            <li>Root CA + Issuing CA separation</li>
-            <li>Certificate issuance & lifecycle management</li>
-            <li>TLS-enabled web service</li>
-            <li>Wireshark pcap verification of encryption</li>
+            <li>Configured CA roles and certificate templates</li>
+            <li>Issued and managed certificates</li>
+            <li>Enabled HTTPS/TLS on the web service</li>
+            <li>Validated encrypted traffic via packet capture</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Security Outcome</h3>
+          <ul class="list">
+            <li>Reduced MITM risk with enforced TLS</li>
+            <li>Better trust control using tiered CA model</li>
+            <li>Demonstrated verification with evidence (pcap)</li>
+            <li>Clear documentation for repeatable setup</li>
           </ul>
         </div>
       </div>
 
       <div class="card" style="margin-top:14px">
-        <h3>Security outcomes</h3>
-        <ul class="list">
-          <li>Reduced MITM risk via enforced TLS</li>
-          <li>Stronger trust controls using tiered CA model</li>
-          <li>Demonstrates practical encryption + validation workflow</li>
-        </ul>
-      </div>
-
-      <div class="grid2" style="margin-top:14px">
-        <div class="card">
-          <h3>Tools</h3>
-          <ul class="list">
-            <li>AWS (EC2)</li>
-            <li>Windows Server 2019 (AD CS concepts)</li>
-            <li>Wireshark</li>
-          </ul>
+        <h3>UK Job Relevance (keywords)</h3>
+        <div class="chips" style="margin-top:10px">
+          <span class="chip">Cloud Security (AWS)</span>
+          <span class="chip">PKI / Certificates</span>
+          <span class="chip">TLS / HTTPS</span>
+          <span class="chip">Network Traffic Analysis</span>
+          <span class="chip">Documentation</span>
         </div>
-        <div class="card">
-          <h3>UK job keywords matched</h3>
-          <ul class="list">
-            <li>PKI / TLS / Certificates</li>
-            <li>Cloud security</li>
-            <li>Network traffic analysis</li>
-            <li>Documentation & evidence</li>
-          </ul>
-        </div>
+        <p class="lead" style="margin-top:12px">
+          This case study demonstrates secure design thinking (trust boundaries, certificate lifecycle) and validation skills
+          (Wireshark evidence) that are common in UK security engineering and analyst roles.
+        </p>
       </div>
-
-      <p style="margin-top:16px">
-        <a class="btn btn--primary" href="../index.html#contact">Contact</a>
-        <a class="btn btn--ghost" href="../index.html#skills">Skills</a>
-      </p>
     </div>
   </main>
 </body>
