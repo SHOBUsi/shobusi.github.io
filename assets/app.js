@@ -7,19 +7,16 @@
   const menu = document.getElementById("navMenu");
   if (toggle && menu) {
     toggle.addEventListener("click", () => {
-      const isOpen = menu.classList.toggle("is-open");
-      toggle.setAttribute("aria-expanded", String(isOpen));
+      const open = menu.classList.toggle("is-open");
+      toggle.setAttribute("aria-expanded", String(open));
     });
   }
 
-  // Theme toggle (persist in localStorage)
+  // Theme toggle (persist)
   const themeToggle = document.getElementById("themeToggle");
   const root = document.documentElement;
-
   const saved = localStorage.getItem("theme");
-  if (saved === "light" || saved === "dark") {
-    root.setAttribute("data-theme", saved);
-  }
+  if (saved) root.setAttribute("data-theme", saved);
 
   if (themeToggle) {
     themeToggle.addEventListener("click", () => {
