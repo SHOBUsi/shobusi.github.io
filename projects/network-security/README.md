@@ -298,29 +298,3 @@ Network Security & Cloud Security Enthusiast
 
 ---
 
-## ⭐ If you found this project useful
-
-Feel free to star the repository and connect with me!
-
----
-
-## 🔥 Pro Tips for Uploading
-
-When pushing to GitHub:
-
-✔ Add **clear screenshots**
-✔ Use **clean diagrams**
-✔ Commit configurations separately
-✔ Keep folder structure organized
-
----
-
-If you want, I can next:
-
-✅ Create **folder structure & file names**
-✅ Write **GitHub project description (short version)**
-✅ Help you **add this to CV & LinkedIn**
-✅ Show **how to present this in interviews**
-✅ Suggest **improvements to impress employers**
-
-Just tell me 🚀
