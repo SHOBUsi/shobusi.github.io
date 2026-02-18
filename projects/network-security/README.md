@@ -289,12 +289,15 @@ This project strengthened practical skills in:
 
 ## 👨‍💻 Author
 
-**Soriful Islam Shoaib**
+**Soriful Islam Shoaib** 
+
 MSc Cybersecurity
+
 Network Security & Cloud Security Enthusiast
 
-📎 LinkedIn: *(add link)*
-📎 Portfolio: *(add link)*
+📎 LinkedIn: *https://www.linkedin.com/in/soriful-islam-shoaib/*
+
+📎 Portfolio: *https://shobusi.github.io/*
 
 ---
 
