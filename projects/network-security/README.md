@@ -119,7 +119,6 @@ Segmentation ensures isolation and controlled access between zones.
 * VLAN trunking (802.1Q)
 * Inter-VLAN routing (Router-on-a-Stick)
 
-📷 *(Insert routing verification screenshot)*
 
 ---
 
@@ -147,7 +146,6 @@ Security policies enforce strict traffic control:
 
 * Blocked (Zero Trust principle)
 
-📷 *(Insert ACL & blocked traffic proof)*
 
 ---
 
@@ -173,7 +171,9 @@ Security policies enforce strict traffic control:
 * Role-based privilege levels
 * Session timeout enforcement
 
-📷 *(Insert SSH login screenshot)*
+<img width="452" height="268" alt="image" src="https://github.com/user-attachments/assets/c515cb1e-927f-421c-bffe-37fa5a0ff7e8" />
+
+->SSH connection verification
 
 ---
 
@@ -188,7 +188,9 @@ A secure tunnel connects HQ and Branch networks.
 ✔ IKE key exchange
 ✔ Perfect Forward Secrecy (PFS)
 
-📷 *(Insert encrypted ping / VPN proof)*
+<img width="452" height="524" alt="image" src="https://github.com/user-attachments/assets/10360a38-7d82-426c-8402-be26a9584bcc" />
+
+->ESP Header  confirms successful site-to-site VPN configuration
 
 ---
 
@@ -206,7 +208,14 @@ A secure tunnel connects HQ and Branch networks.
 ✔ ICMP flood attack simulation
 ✔ IPS detection & blocking confirmed
 
-📷 *(Insert IPS alert screenshot)*
+<img width="452" height="199" alt="image" src="https://github.com/user-attachments/assets/bb9bd1ca-0d01-4864-8f66-cfc238288b7f" />
+
+->show ip ips all displaying active signatures
+
+<img width="452" height="68" alt="image" src="https://github.com/user-attachments/assets/88c9c2e4-d6fe-4583-b8d4-225eef8285cf" />
+
+-> Proof of IPS blocking traffic
+
 
 ---
 
