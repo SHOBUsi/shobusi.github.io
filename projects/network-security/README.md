@@ -8,7 +8,7 @@
 
 This project demonstrates the design and implementation of a **secure enterprise network infrastructure** for a fictional financial institution, **OriginBank**.
 
-The network was designed to address security weaknesses such as weak authentication, poor segmentation, and lack of monitoring by implementing layered security controls and Zero Trust principles.
+The network was designed to address security weaknesses such as weak authentication, poor segmentation, and a lack of monitoring by implementing layered security controls and Zero Trust principles.
 
 This project showcases real-world network security practices, including segmentation, firewall policy enforcement, secure management, VPN encryption, and intrusion prevention.
 
